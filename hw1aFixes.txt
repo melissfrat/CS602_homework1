@@ -1,0 +1,4 @@
+I would say a good way to prevent this is to use the getters and setters so that the data will be indirectly accessible
+to the application.  The application can only access the data indirectly through the properties exported.
+So, even after user changes the first name, the lookup should return the original result. This can be done to all
+functions in the assignment.
